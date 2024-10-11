@@ -90,7 +90,7 @@ void RungeKutta() {
 
 int main() {
 
-    RungeKutta();
+    Euler();
     
     return 0;
 }
