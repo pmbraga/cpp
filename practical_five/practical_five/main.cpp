@@ -7,6 +7,8 @@
 
 #include <iostream>
 
+/* Part 1 */
+
 void calcNextRow(const int* prevRow, int* nextRow, int rowNo) {
     
     nextRow[0] = 1; // the first element of any row is one
@@ -44,6 +46,17 @@ void PascalTriangle(int rowNo) {
     
     delete[] row1;
     delete[] row2;
+    
+}
+
+/* Part 2 */
+
+int** allocateMatrix(int N) {
+    
+    
+    
+    
+    return 0;
     
 }
 
